@@ -127,3 +127,9 @@ Desktop.ini
 # Brain Artifacts
 .gemini/
 .agent/
+
+# Media Files (Local only)
+*.mp4
+*.mov
+*.avi
+*.mkv
