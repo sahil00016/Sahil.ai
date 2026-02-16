@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Placeholder for Gemini API Key - User to provide
-const GEMINI_API_KEY = "AIzaSyCegn0dw7i4NwawIvnOsIEBmTMb_NhyiS8";
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 
 export default function Chatbot({ isOpen, onClose }) {
